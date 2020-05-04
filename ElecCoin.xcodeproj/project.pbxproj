@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62D38ADB2460092D001F3A54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D38ADA2460092D001F3A54 /* AppDelegate.swift */; };
+		62D38ADD2460092D001F3A54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D38ADC2460092D001F3A54 /* SceneDelegate.swift */; };
+		62D38ADF2460092D001F3A54 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D38ADE2460092D001F3A54 /* MainController.swift */; };
+		62D38AE42460092D001F3A54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D38AE32460092D001F3A54 /* Assets.xcassets */; };
+		62D38AE72460092D001F3A54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D38AE52460092D001F3A54 /* LaunchScreen.storyboard */; };
+		62D38AF324600C05001F3A54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62D38AF224600C05001F3A54 /* Main.storyboard */; };
+		62D38AF624600CF9001F3A54 /* BolckChainMoya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D38AF524600CF9001F3A54 /* BolckChainMoya.swift */; };
+		62D38AFC24600F0F001F3A54 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D38AFB24600F0F001F3A54 /* MainModel.swift */; };
+		62D38B0B24601191001F3A54 /* FTIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D38AFF24601191001F3A54 /* FTIndicator.m */; };
+		62D38B0C24601191001F3A54 /* FTToastIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D38B0124601191001F3A54 /* FTToastIndicator.m */; };
+		62D38B0D24601191001F3A54 /* FTProgressIndicator.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62D38B0424601191001F3A54 /* FTProgressIndicator.bundle */; };
+		62D38B0E24601191001F3A54 /* FTProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D38B0624601191001F3A54 /* FTProgressIndicator.m */; };
+		62D38B0F24601191001F3A54 /* FTNotificationIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D38B0824601191001F3A54 /* FTNotificationIndicator.m */; };
+		62D38B182460198B001F3A54 /* MoyaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D38B172460198B001F3A54 /* MoyaError.swift */; };
+		62D38B1B24601EAE001F3A54 /* MainChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D38B1A24601EAE001F3A54 /* MainChatTableViewCell.swift */; };
+		62D38B1E246023A2001F3A54 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D38B1D246023A2001F3A54 /* UIColor.swift */; };
+		62D38B2024602804001F3A54 /* DateIAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D38B1F24602804001F3A54 /* DateIAxisValueFormatter.swift */; };
+		62D38B2224602B5F001F3A54 /* NumberIAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D38B2124602B5F001F3A54 /* NumberIAxisValueFormatter.swift */; };
+		62D38B252460399B001F3A54 /* MainSelectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D38B242460399B001F3A54 /* MainSelectTableViewCell.swift */; };
+		62D38B2724603F7F001F3A54 /* UserDefaultsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D38B2624603F7F001F3A54 /* UserDefaultsKey.swift */; };
+		62D38B2924604909001F3A54 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D38B2824604909001F3A54 /* Double.swift */; };
+		75C82E301F8EEFF8DA69BC06 /* Pods_ElecCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B44218E8E1EB9983F85E67 /* Pods_ElecCoin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23B0BEFD53D61D4C7F7E6721 /* Pods-ElecCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElecCoin.debug.xcconfig"; path = "Target Support Files/Pods-ElecCoin/Pods-ElecCoin.debug.xcconfig"; sourceTree = "<group>"; };
+		465782C80A846994E3CE787F /* Pods-ElecCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElecCoin.release.xcconfig"; path = "Target Support Files/Pods-ElecCoin/Pods-ElecCoin.release.xcconfig"; sourceTree = "<group>"; };
+		62D38AD72460092D001F3A54 /* ElecCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElecCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D38ADA2460092D001F3A54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62D38ADC2460092D001F3A54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		62D38ADE2460092D001F3A54 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		62D38AE32460092D001F3A54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62D38AE62460092D001F3A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62D38AE82460092D001F3A54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62D38AF224600C05001F3A54 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		62D38AF524600CF9001F3A54 /* BolckChainMoya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BolckChainMoya.swift; sourceTree = "<group>"; };
+		62D38AFB24600F0F001F3A54 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		62D38AFF24601191001F3A54 /* FTIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTIndicator.m; sourceTree = "<group>"; };
+		62D38B0124601191001F3A54 /* FTToastIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTToastIndicator.m; sourceTree = "<group>"; };
+		62D38B0224601191001F3A54 /* FTToastIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTToastIndicator.h; sourceTree = "<group>"; };
+		62D38B0424601191001F3A54 /* FTProgressIndicator.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FTProgressIndicator.bundle; sourceTree = "<group>"; };
+		62D38B0524601191001F3A54 /* FTProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTProgressIndicator.h; sourceTree = "<group>"; };
+		62D38B0624601191001F3A54 /* FTProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTProgressIndicator.m; sourceTree = "<group>"; };
+		62D38B0824601191001F3A54 /* FTNotificationIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTNotificationIndicator.m; sourceTree = "<group>"; };
+		62D38B0924601191001F3A54 /* FTNotificationIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTNotificationIndicator.h; sourceTree = "<group>"; };
+		62D38B0A24601191001F3A54 /* FTIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTIndicator.h; sourceTree = "<group>"; };
+		62D38B1424601283001F3A54 /* swift-oc-bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift-oc-bridge.h"; sourceTree = "<group>"; };
+		62D38B172460198B001F3A54 /* MoyaError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaError.swift; sourceTree = "<group>"; };
+		62D38B1A24601EAE001F3A54 /* MainChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainChatTableViewCell.swift; sourceTree = "<group>"; };
+		62D38B1D246023A2001F3A54 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		62D38B1F24602804001F3A54 /* DateIAxisValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateIAxisValueFormatter.swift; sourceTree = "<group>"; };
+		62D38B2124602B5F001F3A54 /* NumberIAxisValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberIAxisValueFormatter.swift; sourceTree = "<group>"; };
+		62D38B242460399B001F3A54 /* MainSelectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSelectTableViewCell.swift; sourceTree = "<group>"; };
+		62D38B2624603F7F001F3A54 /* UserDefaultsKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKey.swift; sourceTree = "<group>"; };
+		62D38B2824604909001F3A54 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		E6B44218E8E1EB9983F85E67 /* Pods_ElecCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElecCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62D38AD42460092D001F3A54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75C82E301F8EEFF8DA69BC06 /* Pods_ElecCoin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62D38ACE2460092C001F3A54 = {
+			isa = PBXGroup;
+			children = (
+				62D38AD92460092D001F3A54 /* ElecCoin */,
+				62D38AD82460092D001F3A54 /* Products */,
+				D3FAFC35B404FEFD22290BF0 /* Pods */,
+				660F880A05920DDF64B9C852 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		62D38AD82460092D001F3A54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62D38AD72460092D001F3A54 /* ElecCoin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62D38AD92460092D001F3A54 /* ElecCoin */ = {
+			isa = PBXGroup;
+			children = (
+				62D38ADA2460092D001F3A54 /* AppDelegate.swift */,
+				62D38ADC2460092D001F3A54 /* SceneDelegate.swift */,
+				62D38B2624603F7F001F3A54 /* UserDefaultsKey.swift */,
+				62D38AEE24600BA8001F3A54 /* Main */,
+				62D38AF424600C9E001F3A54 /* Moya */,
+				62D38AFD24601183001F3A54 /* ThirdFramework */,
+				62D38B1C2460238F001F3A54 /* Extension */,
+				62D38AE32460092D001F3A54 /* Assets.xcassets */,
+				62D38AE52460092D001F3A54 /* LaunchScreen.storyboard */,
+				62D38AE82460092D001F3A54 /* Info.plist */,
+			);
+			path = ElecCoin;
+			sourceTree = "<group>";
+		};
+		62D38AEE24600BA8001F3A54 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				62D38AF124600BBE001F3A54 /* Controller */,
+				62D38AF024600BB7001F3A54 /* View */,
+				62D38AEF24600BB3001F3A54 /* Model */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		62D38AEF24600BB3001F3A54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				62D38AF924600EFE001F3A54 /* Main */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		62D38AF024600BB7001F3A54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				62D38AF724600EEF001F3A54 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		62D38AF124600BBE001F3A54 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				62D38AF824600EF4001F3A54 /* Main */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		62D38AF424600C9E001F3A54 /* Moya */ = {
+			isa = PBXGroup;
+			children = (
+				62D38AF524600CF9001F3A54 /* BolckChainMoya.swift */,
+				62D38B172460198B001F3A54 /* MoyaError.swift */,
+			);
+			path = Moya;
+			sourceTree = "<group>";
+		};
+		62D38AF724600EEF001F3A54 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				62D38AF224600C05001F3A54 /* Main.storyboard */,
+				62D38B1924601E81001F3A54 /* MainChatTableViewCell */,
+				62D38B2324603979001F3A54 /* MainSelectTableViewCell */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		62D38AF824600EF4001F3A54 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				62D38ADE2460092D001F3A54 /* MainController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		62D38AF924600EFE001F3A54 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				62D38AFB24600F0F001F3A54 /* MainModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		62D38AFD24601183001F3A54 /* ThirdFramework */ = {
+			isa = PBXGroup;
+			children = (
+				62D38B1424601283001F3A54 /* swift-oc-bridge.h */,
+				62D38AFE24601191001F3A54 /* FTIndicator */,
+			);
+			path = ThirdFramework;
+			sourceTree = "<group>";
+		};
+		62D38AFE24601191001F3A54 /* FTIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				62D38B0A24601191001F3A54 /* FTIndicator.h */,
+				62D38AFF24601191001F3A54 /* FTIndicator.m */,
+				62D38B0024601191001F3A54 /* FTToastIndicator */,
+				62D38B0324601191001F3A54 /* FTProgressIndicator */,
+				62D38B0724601191001F3A54 /* FTNotificationIndicator */,
+			);
+			path = FTIndicator;
+			sourceTree = "<group>";
+		};
+		62D38B0024601191001F3A54 /* FTToastIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				62D38B0124601191001F3A54 /* FTToastIndicator.m */,
+				62D38B0224601191001F3A54 /* FTToastIndicator.h */,
+			);
+			path = FTToastIndicator;
+			sourceTree = "<group>";
+		};
+		62D38B0324601191001F3A54 /* FTProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				62D38B0424601191001F3A54 /* FTProgressIndicator.bundle */,
+				62D38B0524601191001F3A54 /* FTProgressIndicator.h */,
+				62D38B0624601191001F3A54 /* FTProgressIndicator.m */,
+			);
+			path = FTProgressIndicator;
+			sourceTree = "<group>";
+		};
+		62D38B0724601191001F3A54 /* FTNotificationIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				62D38B0824601191001F3A54 /* FTNotificationIndicator.m */,
+				62D38B0924601191001F3A54 /* FTNotificationIndicator.h */,
+			);
+			path = FTNotificationIndicator;
+			sourceTree = "<group>";
+		};
+		62D38B1924601E81001F3A54 /* MainChatTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				62D38B1A24601EAE001F3A54 /* MainChatTableViewCell.swift */,
+			);
+			path = MainChatTableViewCell;
+			sourceTree = "<group>";
+		};
+		62D38B1C2460238F001F3A54 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				62D38B1D246023A2001F3A54 /* UIColor.swift */,
+				62D38B1F24602804001F3A54 /* DateIAxisValueFormatter.swift */,
+				62D38B2124602B5F001F3A54 /* NumberIAxisValueFormatter.swift */,
+				62D38B2824604909001F3A54 /* Double.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		62D38B2324603979001F3A54 /* MainSelectTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				62D38B242460399B001F3A54 /* MainSelectTableViewCell.swift */,
+			);
+			path = MainSelectTableViewCell;
+			sourceTree = "<group>";
+		};
+		660F880A05920DDF64B9C852 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6B44218E8E1EB9983F85E67 /* Pods_ElecCoin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3FAFC35B404FEFD22290BF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23B0BEFD53D61D4C7F7E6721 /* Pods-ElecCoin.debug.xcconfig */,
+				465782C80A846994E3CE787F /* Pods-ElecCoin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62D38AD62460092D001F3A54 /* ElecCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D38AEB2460092D001F3A54 /* Build configuration list for PBXNativeTarget "ElecCoin" */;
+			buildPhases = (
+				8BEFFE5FE7B3A25B6F0B702E /* [CP] Check Pods Manifest.lock */,
+				62D38AD32460092D001F3A54 /* Sources */,
+				62D38AD42460092D001F3A54 /* Frameworks */,
+				62D38AD52460092D001F3A54 /* Resources */,
+				10988CC9107D149AD36AE1BE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ElecCoin;
+			productName = ElecCoin;
+			productReference = 62D38AD72460092D001F3A54 /* ElecCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62D38ACF2460092C001F3A54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Elecoxy;
+				TargetAttributes = {
+					62D38AD62460092D001F3A54 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 62D38AD22460092C001F3A54 /* Build configuration list for PBXProject "ElecCoin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62D38ACE2460092C001F3A54;
+			productRefGroup = 62D38AD82460092D001F3A54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62D38AD62460092D001F3A54 /* ElecCoin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62D38AD52460092D001F3A54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D38AF324600C05001F3A54 /* Main.storyboard in Resources */,
+				62D38AE72460092D001F3A54 /* LaunchScreen.storyboard in Resources */,
+				62D38B0D24601191001F3A54 /* FTProgressIndicator.bundle in Resources */,
+				62D38AE42460092D001F3A54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10988CC9107D149AD36AE1BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElecCoin/Pods-ElecCoin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ElecCoin/Pods-ElecCoin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ElecCoin/Pods-ElecCoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BEFFE5FE7B3A25B6F0B702E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ElecCoin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62D38AD32460092D001F3A54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D38B2924604909001F3A54 /* Double.swift in Sources */,
+				62D38B2224602B5F001F3A54 /* NumberIAxisValueFormatter.swift in Sources */,
+				62D38ADF2460092D001F3A54 /* MainController.swift in Sources */,
+				62D38B1E246023A2001F3A54 /* UIColor.swift in Sources */,
+				62D38ADB2460092D001F3A54 /* AppDelegate.swift in Sources */,
+				62D38ADD2460092D001F3A54 /* SceneDelegate.swift in Sources */,
+				62D38B0F24601191001F3A54 /* FTNotificationIndicator.m in Sources */,
+				62D38AFC24600F0F001F3A54 /* MainModel.swift in Sources */,
+				62D38B1B24601EAE001F3A54 /* MainChatTableViewCell.swift in Sources */,
+				62D38B252460399B001F3A54 /* MainSelectTableViewCell.swift in Sources */,
+				62D38B0E24601191001F3A54 /* FTProgressIndicator.m in Sources */,
+				62D38B0C24601191001F3A54 /* FTToastIndicator.m in Sources */,
+				62D38B2024602804001F3A54 /* DateIAxisValueFormatter.swift in Sources */,
+				62D38AF624600CF9001F3A54 /* BolckChainMoya.swift in Sources */,
+				62D38B2724603F7F001F3A54 /* UserDefaultsKey.swift in Sources */,
+				62D38B182460198B001F3A54 /* MoyaError.swift in Sources */,
+				62D38B0B24601191001F3A54 /* FTIndicator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62D38AE52460092D001F3A54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62D38AE62460092D001F3A54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62D38AE92460092D001F3A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62D38AEA2460092D001F3A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62D38AEC2460092D001F3A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23B0BEFD53D61D4C7F7E6721 /* Pods-ElecCoin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR6X4CRK5E;
+				INFOPLIST_FILE = ElecCoin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elecoxy.ElecCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ElecCoin/ThirdFramework/swift-oc-bridge.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		62D38AED2460092D001F3A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 465782C80A846994E3CE787F /* Pods-ElecCoin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR6X4CRK5E;
+				INFOPLIST_FILE = ElecCoin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elecoxy.ElecCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ElecCoin/ThirdFramework/swift-oc-bridge.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62D38AD22460092C001F3A54 /* Build configuration list for PBXProject "ElecCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D38AE92460092D001F3A54 /* Debug */,
+				62D38AEA2460092D001F3A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62D38AEB2460092D001F3A54 /* Build configuration list for PBXNativeTarget "ElecCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D38AEC2460092D001F3A54 /* Debug */,
+				62D38AED2460092D001F3A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62D38ACF2460092C001F3A54 /* Project object */;
+}

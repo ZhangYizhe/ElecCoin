@@ -1,0 +1,6 @@
+framework module Pods_ElecCoin {
+  umbrella header "Pods-ElecCoin-umbrella.h"
+
+  export *
+  module * { export * }
+}

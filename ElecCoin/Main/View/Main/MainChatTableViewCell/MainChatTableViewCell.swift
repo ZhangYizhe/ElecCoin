@@ -12,9 +12,11 @@ import Charts
 
 class MainChatTableViewCell: UITableViewCell, ChartViewDelegate {
     
+    // 图标
     let lineChart = LineChartView()
     
-    let label = UILabel()
+    // 副标题
+    let subDescLabel = UILabel()
     
     var values = [MainModel.Value]() {
         didSet {
@@ -70,10 +72,10 @@ class MainChatTableViewCell: UITableViewCell, ChartViewDelegate {
     
     private func initView() {
         
-        label.font = .systemFont(ofSize: 12)
-        label.textColor = UIColor.lightGray
-        label.text = "You can get detial infomation by tap the chart."
-        self.addSubview(label)
+        subDescLabel.font = .systemFont(ofSize: 12)
+        subDescLabel.textColor = UIColor.lightGray
+        subDescLabel.text = "You can get detial infomation by tap the chart."
+        self.addSubview(subDescLabel)
         
         lineChart.delegate = self
         lineChart.dragEnabled = true
@@ -109,7 +111,7 @@ class MainChatTableViewCell: UITableViewCell, ChartViewDelegate {
             make.height.equalTo(200).priority(900)
         }
         
-        label.snp.makeConstraints { (make) in
+        subDescLabel.snp.makeConstraints { (make) in
             make.left.equalTo(lineChart)
             make.right.equalTo(lineChart)
             make.top.equalTo(lineChart.snp.bottom).offset(5)

@@ -8,15 +8,15 @@
 import Foundation
 import Moya
 
-//初始化请求的provider
+// 初始化请求的provider
 let BolckChainProvider = MoyaProvider<BolckChainMoya>()
 
-//请求分类
+// 请求分类
 public enum BolckChainMoya {
     case marketPrice(timespan: String, daysAverageString: String, sampled: String, metadata: String, cors: String, format: String)
 }
 
-//请求配置
+// 请求配置
 extension BolckChainMoya: TargetType {
     // 服务器地址
     public var baseURL: URL {
@@ -32,12 +32,12 @@ extension BolckChainMoya: TargetType {
         }
     }
     
-    //请求类型
+    // 请求类型
     public var method: Moya.Method {
         return .get
     }
     
-    //请求任务事件
+    // 请求任务事件
     public var task: Task {
         switch self {
         case .marketPrice(timespan: let timespan, daysAverageString: let daysAverageString, sampled: let sampled, metadata: let metadata, cors: let cors, format: let format):

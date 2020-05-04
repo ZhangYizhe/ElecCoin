@@ -12,8 +12,10 @@ import MJRefresh
 
 class MainController: UIViewController {
     
+    // 数据模型
     let mainModel = MainModel()
     
+    // 表格
     let tableView = UITableView()
     
     // 顶部刷新
@@ -24,6 +26,7 @@ class MainController: UIViewController {
         
         initView()
         
+        // 初始化数据
         reloadData(reloadTableView: true)
     }
     
@@ -56,7 +59,8 @@ class MainController: UIViewController {
         }
     }
     
-    // 数据请求
+    /// 数据请求
+    /// - Parameter reloadTableView: 是否需要整体刷新
     @objc func reloadData(reloadTableView:  Bool) {
         FTIndicator.showProgress(withMessage: "", userInteractionEnable: false)
         
